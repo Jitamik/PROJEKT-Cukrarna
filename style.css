@@ -32,4 +32,35 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 }
+.hlavicka {
+	margin: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items:end;
+}
 
+.logo {
+	width: 170px;
+}
+.menu {
+	margin: 0;
+	padding: 10px 15px;
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	justify-content: flex-end;
+
+}
+.hero {
+	background-image: url(images/cupcake.jpg) ;
+	background-size:cover;
+	padding: 80px;
+	
+
+}
+h1 {
+	font-size: 52px;
+}
+p {
+	font-size: 24px;
+}
