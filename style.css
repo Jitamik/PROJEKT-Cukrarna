@@ -74,11 +74,7 @@ p {
 	text-decoration: none;
 	list-style: none;
 	line-height: 1;
-
-}
-nav {
-	
-}
+	}
 .menu a {
 	display: block;
 	padding: 10px 15px;
@@ -114,7 +110,7 @@ h1 {
 	color: #F0F0F0;
 }
 p {
-	font-size: 24px;
+	font-size: 18px;
 	font-style:italic;
 }
 h2 {
@@ -131,11 +127,11 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 }
 .sloupec {
 	flex: 0 0 calc((100% - 30px) / 2);
 }
+
 
 .sekce-seda {
 	background-color: #F0F0F0;
@@ -152,7 +148,6 @@ h2 {
 	flex: 0 0 calc((100% - 90px) / 4);
 	background-color: white;
 	border-radius: 5px;
-	
 }
 .produkt-obsah {
 	padding: 20px;
@@ -175,4 +170,15 @@ h2 {
 	border-radius: 30px;
 	background-color: #f195b2;
 	color: white;
+}
+.foto {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.paticka {
+	padding: 30px 0;
+	background-color: #303339;
+	color: white;
+	text-align: center;
 }
